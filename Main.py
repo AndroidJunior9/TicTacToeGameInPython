@@ -10,14 +10,11 @@ scoreO = 0
 
 
 def checkIfWin():
-    global winner 
     global scoreX,scoreO
-    winner = False
     if b1["text"] == b2["text"] == b3["text"] == "X":
         b1.config(bg = "red")
         b2.config(bg = "red")
-        b3.config(bg = "red")
-        winner = True 
+        b3.config(bg = "red") 
         messagebox.showinfo("Tic Tac Toe","Congratulations X wins")
         scoreX+=1
         resetUi()
@@ -25,72 +22,63 @@ def checkIfWin():
     elif b4["text"] == b5["text"] == b6["text"] == "X":
         b4.config(bg = "red")
         b5.config(bg = "red")
-        b6.config(bg = "red")
-        winner = True 
+        b6.config(bg = "red") 
         messagebox.showinfo("Tic Tac Toe","Congratulations X wins")
         scoreX+=1
         resetUi()
     elif b7["text"] == b8["text"] == b9["text"] == "X":
         b7.config(bg = "red")
         b8.config(bg = "red")
-        b9.config(bg = "red")
-        winner = True 
+        b9.config(bg = "red") 
         messagebox.showinfo("Tic Tac Toe","Congratulations X wins")
         scoreX+=1
         resetUi()
     elif b1["text"] == b4["text"] == b7["text"] == "X":
         b1.config(bg = "red")
         b4.config(bg = "red")
-        b7.config(bg = "red")
-        winner = True 
+        b7.config(bg = "red") 
         messagebox.showinfo("Tic Tac Toe","Congratulations X wins")
         scoreX+=1
         resetUi()
     elif b2["text"] == b5["text"] == b8["text"] == "X":
         b2.config(bg = "red")
         b5.config(bg = "red")
-        b8.config(bg = "red")
-        winner = True 
+        b8.config(bg = "red") 
         messagebox.showinfo("Tic Tac Toe","Congratulations X wins")
         scoreX+=1
         resetUi()
     elif b3["text"] == b6["text"] == b9["text"] == "X":
         b3.config(bg = "red")
         b6.config(bg = "red")
-        b9.config(bg = "red")
-        winner = True 
+        b9.config(bg = "red") 
         messagebox.showinfo("Tic Tac Toe","Congratulations X wins")
         scoreX+=1
         resetUi()
     elif b1["text"] == b5["text"] == b9["text"] == "X":
         b1.config(bg = "red")
         b5.config(bg = "red")
-        b9.config(bg = "red")
-        winner = True 
+        b9.config(bg = "red") 
         messagebox.showinfo("Tic Tac Toe","Congratulations X wins")
         scoreX+=1
         resetUi()
     elif b3["text"] == b5["text"] == b7["text"] == "X":
         b3.config(bg = "red")
         b5.config(bg = "red")
-        b7.config(bg = "red")
-        winner = True 
+        b7.config(bg = "red") 
         messagebox.showinfo("Tic Tac Toe",f"Congratulations X wins")
         scoreX+=1
         resetUi()
     elif b1["text"] == b2["text"] == b3["text"] == "O":
         b1.config(bg = "red")
         b2.config(bg = "red")
-        b3.config(bg = "red")
-        winner = True 
+        b3.config(bg = "red") 
         messagebox.showinfo("Tic Tac Toe","Congratulations O wins")
         scoreO+=1
         resetUi()
     elif b4["text"] == b5["text"] == b6["text"] == "O":
         b4.config(bg = "red")
         b5.config(bg = "red")
-        b6.config(bg = "red")
-        winner = True 
+        b6.config(bg = "red") 
         messagebox.showinfo("Tic Tac Toe","Congratulations O wins")
         scoreO+=1
         resetUi()
@@ -98,7 +86,6 @@ def checkIfWin():
         b7.config(bg = "red")
         b8.config(bg = "red")
         b9.config(bg = "red")
-        winner = True 
         messagebox.showinfo("Tic Tac Toe","Congratulations O wins")
         scoreO+=1
         resetUi()
@@ -106,7 +93,6 @@ def checkIfWin():
         b1.config(bg = "red")
         b4.config(bg = "red")
         b7.config(bg = "red")
-        winner = True 
         messagebox.showinfo("Tic Tac Toe","Congratulations O wins")
         scoreO+=1
         resetUi()
@@ -114,7 +100,6 @@ def checkIfWin():
         b2.config(bg = "red")
         b5.config(bg = "red")
         b8.config(bg = "red")
-        winner = True 
         messagebox.showinfo("Tic Tac Toe","Congratulations O wins")
         scoreO+=1
         resetUi()
@@ -122,7 +107,6 @@ def checkIfWin():
         b3.config(bg = "red")
         b6.config(bg = "red")
         b9.config(bg = "red")
-        winner = True 
         messagebox.showinfo("Tic Tac Toe","Congratulations O wins")
         scoreO+=1
         resetUi()
@@ -130,7 +114,6 @@ def checkIfWin():
         b1.config(bg = "red")
         b5.config(bg = "red")
         b9.config(bg = "red")
-        winner = True 
         messagebox.showinfo("Tic Tac Toe","Congratulations O wins")
         scoreO+=1
         resetUi()
@@ -138,7 +121,6 @@ def checkIfWin():
         b3.config(bg = "red")
         b5.config(bg = "red")
         b7.config(bg = "red")
-        winner = True 
         messagebox.showinfo("Tic Tac Toe","Congratulations O wins")
         scoreO+=1
         resetUi()
